@@ -1,0 +1,79 @@
+.practiceArea {
+  /* overflow: hidden; */
+  margin-top: 179px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1140px;
+  height: 1228px;
+
+  border-radius: 14px;
+
+  h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 342px;
+    gap: 30px;
+  }
+
+  .itemContainer {
+    overflow: hidden;
+    border-radius: 14px;
+    &:hover .item {
+      transform: scale(1.1);
+    }
+    &:hover .item::before,
+    &:focus .item::before {
+      display: block;
+    }
+  }
+
+  .item {
+    border-radius: 14px;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    color: var(--color-white);
+    background-size: 100% 100%;
+    background-repeat: no-repeat round;
+    background-position: center;
+    transition: all 0.5s;
+  }
+
+  .col2 {
+    grid-column: span 2;
+    width: 752px;
+  }
+
+  .content {
+    position: relative;
+    top: 277px;
+  }
+
+  .item1 {
+    background-image: url("../../assets/practice-area-images/image-1.png");
+  }
+  .item2 {
+    background-image: url("../../assets/practice-area-images/image-2.png");
+  }
+  .item3 {
+    background-image: url("../../assets/practice-area-images/image-3.png");
+  }
+  .item4 {
+    background-image: url("../../assets/practice-area-images/image-4.png");
+  }
+  .item5 {
+    background-image: url("../../assets/practice-area-images/image-5.png");
+  }
+  .item6 {
+    background-image: url("../../assets/practice-area-images/image-6.png");
+  }
+}

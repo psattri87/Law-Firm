@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 242px;
+  width: 100vw;
+  height: 367px;
+  background: #171717;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+  width: 1156px;
+  height: 150px;
+  .lastContent {
+    gap: 20px;
+    justify-content: center;
+    h3 {
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: 100;
+      line-height: 20px;
+      opacity: 0.8;
+    }
+  }
+}
+
+.menu {
+  gap: 79px;
+  div {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}

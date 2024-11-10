@@ -1,0 +1,44 @@
+.container {
+  margin-top: 187px;
+  width: 1140px;
+  /* height: 629px; */
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+  }
+}
+
+.contentBox{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftDiv{
+    width: 557px;
+height: 58px;
+}
+
+.rightDiv{
+    width: 564px;
+height: 540px;
+h2{
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+}
+
+.hl{
+    border-bottom: 2px solid var(--color-white);
+    opacity: 0.5;
+    margin: 40px 0;
+}
+
+.qBox{
+    display: flex;
+    flex-direction: column;
+}

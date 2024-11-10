@@ -1,0 +1,38 @@
+.clients {
+  margin-top: 186px;
+  flex-direction: column;
+  width: 1137px;
+  height: 626px;
+  overflow: hidden;
+
+  h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+    width: 374px;
+    height: 154px;
+  }
+  p {
+    font-family: Inter;
+  }
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonsContainer {
+  width: 200px;
+  height: 91.85px;
+}
+
+.carouselContainer {
+  height: 368px;
+  width: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}

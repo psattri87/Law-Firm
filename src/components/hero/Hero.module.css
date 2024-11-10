@@ -1,0 +1,73 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: var(--text-size-hero);
+  color: var(--color-white);
+  font-weight: 500;
+}
+span {
+  font-size: var(--text-size-hero);
+  color: var(--color-white);
+  font-optical-sizing: auto;
+  font-weight: 700;
+}
+
+.textContainer {
+  width: 560px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+p {
+  font-size: var(--text-large);
+  color: var(--color-white);
+  opacity: 30%;
+  line-height: 29.25px;
+  padding-bottom: 11.25px;
+}
+
+.talkBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  background-color: var(--color-black-highlight);
+  padding: 6px 6px 6px 28px;
+}
+.email {
+  input {
+    background-color: inherit;
+    border: none;
+    color: var(--color-white);
+    font-size: var(--text-medium);
+    &:focus {
+      outline: none;
+    }
+    &::placeholder{
+        color: inherit;
+    }
+  }
+  opacity:0.2;
+  display: flex;
+  gap: 12px;
+}
+
+.talkButton {
+  cursor: pointer;
+  background-color: var(--color-golden);
+  width: 137px;
+  height: 100%;
+  border-radius: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--text-medium);
+  font-weight: 600;
+}

@@ -1,0 +1,66 @@
+.myAccordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  h2 {
+    font-size: 24px;
+    color: var(--color-white);
+    font-weight: 600;
+    line-height: 24px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.25px;
+    padding:0;
+  }
+}
+
+.heading {
+  margin-bottom: 39px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  span {
+    cursor: pointer;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: var(--color-golden);
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0.5s ease, opacity 0.5s ease;
+  }
+
+  .hideBtn{
+    opacity:0;
+    visibility: hidden;
+  }
+}
+.hl {
+  margin-bottom: 39px;
+  border-bottom: 2px solid #d9d9d955;
+  opacity: 0.5;
+}
+
+.hide {
+  overflow: hidden;
+  max-height: 0;
+  margin-bottom:0;
+  transition: max-height 0.5s ease-out, margin-bottom 1s ease;
+}
+
+.show{
+  max-height: 200px;
+  margin-bottom: 39px;
+}
+
+.hiddenContent{
+  visibility: hidden;
+}

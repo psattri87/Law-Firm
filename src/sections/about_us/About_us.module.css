@@ -1,0 +1,42 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 1139px;
+  height: 551px;
+
+  .cardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77.23px;
+    color: white;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    /* line-height: 24px; */
+    color: white;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.75px;
+  }
+
+  button {
+    background-color: var(--color-golden);
+    width: 121px;
+    height: 43px;
+    border-radius: 23.5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+  }
+}

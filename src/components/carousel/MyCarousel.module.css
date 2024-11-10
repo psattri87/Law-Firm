@@ -1,0 +1,47 @@
+.card {
+  width: 359px;
+  height: 368px;
+  padding: 36px 36px 24px 24px;
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.75px;
+    margin-top: 18px;
+  }
+  .avatar {
+    width: 105px;
+    height: 102px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.carousel-button-group {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  top: -560px;
+  left: 930px;
+}
+
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.containerClass{
+    width: 1163px;
+}

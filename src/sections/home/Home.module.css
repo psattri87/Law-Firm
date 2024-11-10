@@ -1,0 +1,18 @@
+.Home{
+    background-color: var(--color-black);
+    height: 909px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 172px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 53px;
+    width: 1135px;
+    height: 636px;
+    color: var(--color-black-highlight)
+}

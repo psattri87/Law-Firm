@@ -1,0 +1,10 @@
+.menu{
+    color: var(--color-white);
+    font-size: var(--text-medium);
+    display: flex;
+    justfy-content: center;
+    gap: 30px;
+    div{
+        cursor: pointer;
+    }
+}

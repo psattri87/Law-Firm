@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 42px;
+  background: #47474780;
+
+  margin-top: 215px;
+  width: 1245px;
+  height: 356px;
+  h1 {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 75.35px;
+    text-align: center;
+  }
+  form {
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Helvetica;
+    input {
+      background: #e4e4e4;
+      padding: 23px;
+      border: none;
+      width: 276px;
+      height: 53px;
+      font-weight: 400;
+      font-size: 14px;
+      &::placeholder {
+        font-style: italic;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    button {
+      border: none;
+      background-color: var(--color-golden);
+      width: 116px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    display: flex;
+    gap: 9px;
+  }
+}

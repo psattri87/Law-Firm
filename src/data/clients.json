@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Jane Cooper",
+        "position": "Ceo of Hunt",
+        "avatar":"../assets/avatar1.png",
+        "review": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+    },
+    {
+        "name": "Devon Lane",
+        "position": "Ceo of Hunt",
+        "avatar":"../assets/avatar2.png",
+        "review": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+    },
+    {
+        "name": "Robert Fox",
+        "position": "Ceo of Hunt",
+        "avatar":"../assets/avatar3.png",
+        "review": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+    },
+    {
+        "name": "Jane Cooper",
+        "position": "Ceo of Hunt",
+        "avatar":"../assets/avatar4.png",
+        "review": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+    },
+    {
+        "name": "Devon Lane",
+        "position": "Ceo of Hunt",
+        "avatar":"../assets/avatar5.png",
+        "review": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+    },
+    {
+        "name": "Robert Fox",
+        "position": "Ceo of Hunt",
+        "avatar":"../assets/avatar6.png",
+        "review": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia"
+    }
+]
