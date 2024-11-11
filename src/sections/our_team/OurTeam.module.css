@@ -14,12 +14,12 @@
 }
 
 .gridContainer {
+  transition: color 2s ease;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 50px;
-  /* grid-template-columns: minmax(344px, 1fr) minmax(344px, 1fr) minmax(344px, 1fr); */
-  /* gap:  */
 }
 
 .gridItem {
@@ -37,12 +37,17 @@
     line-height: 24px;
     opacity: 0.3;
   }
-  &:hover{
+  h2,
+  h4 {
+    transition: color 0.5s;
+  }
+  transition: background-color 0.5s ease;
+  &:hover {
     background-color: var(--color-golden);
-    h2{
+    h2 {
       color: var(--color-black-2);
     }
-    h4{
+    h4 {
       color: var(--color-black);
       opacity: 0.4;
     }
@@ -52,5 +57,4 @@
 .avatar {
   height: 68px;
   width: 68px;
-  border: none;
 }
