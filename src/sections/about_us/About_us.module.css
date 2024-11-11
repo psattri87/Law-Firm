@@ -6,9 +6,9 @@
   width: 1139px;
   height: 551px;
 
-  .cardContainer{
+  .cardContainer {
+    display: flex !important;
     width: 100%;
-    display: flex;
     justify-content: space-between;
   }
 

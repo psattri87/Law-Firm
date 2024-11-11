@@ -8,7 +8,6 @@ function Accordion({ questions }) {
 
   useEffect(() => {
     const element = document.getElementsByClassName("answer");
-    console.log(element.length);
   
     return () => {
       

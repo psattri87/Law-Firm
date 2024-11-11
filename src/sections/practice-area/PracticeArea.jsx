@@ -36,7 +36,6 @@ const ImageGallery = () => {
   );
 };
 
-// console.log(ImageGallery);
 
 function PracticeArea() {
   return (
